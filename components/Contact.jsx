@@ -38,7 +38,10 @@ const Contact = () => {
         setEmail('');
         setClinicName('');
         setCityName('');
+
+        
         setMessage('');
+        
         setDialog(true);
 
       }).catch((e) => {
@@ -72,10 +75,11 @@ const Contact = () => {
         </div>
         <div className="md:basis-1/2 flex flex-col justify-center mt-4">
           <div className="text-center text-white text-3xl font-bold">
-            (+91) 6290341107
+            Call or Whatsapp @ <br />
+            <a href="tel:916290341107" className="hover:underline">(+91) 6290341107</a>
           </div>
-          <div className="text-center  mt-4 text-white text-3xl font-bold">
-            smilemarketing@gmail.com
+          <div className="text-center  mt-4 text-white  text-lg md:text-3xl font-bold hover:underline px-8 ">
+           <a href="mailto:smileindiamarketing1047@gmail.com">smileindiamarketing1047@gmail.com</a>
           </div>
         </div>
       </div>

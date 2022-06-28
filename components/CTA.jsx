@@ -25,7 +25,7 @@ const CTA  =  ()=>{
           
            
             <li className="mt-4">
-              <a href="#" title="" className="flex items-center opacity-75 hover:opacity-100">
+              <a href="tel:916290341107" title="" className="flex items-center opacity-75 hover:opacity-100">
                 <span>
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                     className="fill-current">
@@ -40,7 +40,7 @@ const CTA  =  ()=>{
               </a>
             </li>
             <li className="mt-4">
-              <a href="#" title="" className="flex items-center opacity-75 hover:opacity-100">
+              <a href="mailto:smileindiamarketing1047@gmail.com" title="" className="flex items-center opacity-75 hover:opacity-100">
                 <span>
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                     className="fill-current">
@@ -49,13 +49,13 @@ const CTA  =  ()=>{
                   </svg>
                 </span>
                 <span className="ml-3">
-                        smileindia@gmail.com
+                  smileindiamarketing1047@gmail.com
                 </span>
               </a>
             </li>
           </ul>
         </div>
-
+{/* 
         <div className="w-full md:w-1/8 lg:w-1/6 mt-20 lg:mt-0 lg:mx-4">
           <h5 className="uppercase tracking-wider font-semibold">Social</h5>
           <ul className="mt-4 flex">
@@ -85,7 +85,7 @@ const CTA  =  ()=>{
               className="hidden lg:block" />All Rights
             Reserved.
           </p>
-        </div>
+        </div> */}
       </div>
       <div className="flex w-full flex-col items-center text-xs mt-12">
         <a className="text-gray-400 hover:text-gray-300" href="/privacy_policy.html" rel="nofollow">Privacy
